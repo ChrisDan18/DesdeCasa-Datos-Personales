@@ -4,50 +4,50 @@
     box-sizing: border-box;
 }
 
-body{
-    background-color: skyblue;
+body {
+    font-family: arial;
+    background-color: white;
 }
 
-.form-registro{
+.form-login{
     width: 400px;
-    background-color: teal;
-    padding: 30px;
+    height: 450px;
+    background: cadetblue;
     margin: auto;
-    margin-top: 100px;
-    color: white;
+    margin-top: 90px;
     box-shadow: 7px 13px 37px #000;
+    padding: 20px 30px;
+    border-top: 4px solid #017bab;
+    color: white;
 }
 
-
-.form-registro h4 {
-    font-size: 22px;
-    margin-bottom: 20px;
+.form-login h5{
+    margin: 0;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+    font-size: 20px;
 }
 
 .controles {
     width: 100%;
+    border: 1px solid #017bab;
+    margin-bottom: 15px;
+    padding: 11px 10px;
     background-color: white;
-    padding: 10px;
-    margin-bottom: 16px;
-    font-size: 18px;
+    font-size: 14px;
+    font-weight: bold;
 }
 
-.form-registro p {
-    height: 40px;
-    text-align: center;
-    font-size: 18px;
-}
-
-.form-registro a:hover {
-    color: white;
-    text-decoration: underline;
-}
-
-.form-registro .boton {
+.boton{
     width: 100%;
-    background-color: dodgerblue;
-    padding: 12px;
+    height: 40px;
+    background: #017bab;
+    border: none;
     color: white;
-    margin: 16px 0;
-    font-size: 16px;
+    margin-bottom: 16px;
 }
+
+
+
